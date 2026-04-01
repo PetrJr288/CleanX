@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CleanX | Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/clx-gallery.css" />
+    <link rel="stylesheet" href="../aos-master/aos-master/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../img/icons/dry_cleaning_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- PRELOADER -->
+    <!-- <div id="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-logo">Clean<span>X</span></div>
+        <div class="preloader-tag">Clean Clothes &middot; Less Stress</div>
+        <div class="preloader-bar"><div class="preloader-fill"></div></div>
+      </div>
+    </div> -->
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <div class="topbar-group">
+        <div class="topbar-item">
+          <i class="fa fa-phone"></i><span>+234 802 316 7869</span>
+        </div>
+        <div class="topbar-item">
+          <i class="fa fa-envelope"></i><span>contact@cleanx.com</span>
+        </div>
+      </div>
+      <div class="topbar-group topbar-right">
+        <div class="topbar-item">
+          <i class="fa fa-clock"></i
+          ><span>Mon &ndash; Sat: 6:30am &ndash; 6:30pm</span>
+        </div>
+        <div class="topbar-item">
+          <i class="fa fa-location-dot"></i
+          ><span>12 Old Obinze Rd, Owerri-West, Imo State</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="mainNav">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon"><i class="fa fa-shirt"></i></div>
+        Clean<span>X</span>
+      </a>
+      <div class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./clx-about.html">About</a>
+        <a href="./clx-services.html">Services</a>
+        <a href="./clx-gallery.html" class="active">Gallery</a>
+        <a href="./clx-blog.html">Blog</a>
+        <a href="./clx-contact.html">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Toggle dark mode"
+        >
+          <i class="fa fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="./clx-contact.html" class="btn-primary nav-cta-btn"
+          >Get Fresh</a
+        >
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <div class="nav-mobile" id="navMobile">
+      <a href="./index.html">Home</a>
+      <a href="./clx-about.html">About</a>
+      <a href="./clx-services.html">Services</a>
+      <a href="./clx-gallery.html" class="active">Gallery</a>
+      <a href="./clx-blog.html">Blog</a>
+      <a href="./clx-contact.html">Contact</a>
+      <a href="./clx-contact.html" class="btn-primary mobile-cta"
+        >Get Fresh</a
+      >
+    </div>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div
+        class="page-hero-bg"
+        style="
+          background-image:
+            linear-gradient(rgba(0, 0, 0, 0.6)),
+            url(&quot;https://images.unsplash.com/photo-1545173168-9f1947eebb7f?w=1600&q=80&quot;);
+        "
+      ></div>
+      <div class="page-hero-content">
+        <span class="section-label">Our Work</span>
+        <h1>Clean<span>X</span> Gallery</h1>
+        <p>
+          A glimpse into our world &mdash; from freshly pressed garments to
+          happy customers across Imo State.
+        </p>
+        <div class="hero-breadcrumb">
+          <a href="index.html">Home</a>
+          <i class="fa fa-chevron-right"></i>
+          <span>Gallery</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS BANNER -->
+    <div class="stats-banner">
+      <div class="stat-pill">
+        <i class="fa fa-star"></i><strong>5.0</strong
+        ><span>Customer Rating</span>
+      </div>
+      <div class="stat-pill">
+        <i class="fa fa-images"></i><strong>30+</strong
+        ><span>Gallery Photos</span>
+      </div>
+      <div class="stat-pill">
+        <i class="fa fa-users"></i><strong>500+</strong
+        ><span>Happy Customers</span>
+      </div>
+      <div class="stat-pill">
+        <i class="fa fa-shield-halved"></i><strong>100%</strong
+        ><span>Quality Assured</span>
+      </div>
+    </div>
+
+    <!-- GALLERY SECTION -->
+    <section class="gallery-section">
+      <div class="gallery-header text-center">
+        <span class="section-label">Browse Our Work</span>
+        <h2 class="section-title">Our <span>Gallery</span></h2>
+        <p class="section-sub">
+          Explore photos of our facilities, equipment, and the results we
+          deliver for every customer.
+        </p>
+      </div>
+
+      <!-- FILTER TABS -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Photos</button>
+        <button class="filter-btn" data-filter="facility">Facility</button>
+        <button class="filter-btn" data-filter="laundry">Laundry</button>
+        <button class="filter-btn" data-filter="team">Team</button>
+        <button class="filter-btn" data-filter="delivery">Delivery</button>
+      </div>
+
+      <!-- MASONRY GRID -->
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Row 1 -->
+        <div class="gal-item" data-category="facility">
+          <img
+            src="../img/651d6f7adc1891ff4e68423c_first-laundromat-laundry-webflow-template.jpg"
+            alt="Washing machines facility"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Facility</span>
+          </div>
+        </div>
+        <div class="gal-item gal-tall" data-category="laundry">
+          <img
+            src="../img/666c13117f06a9b36e6de581_pexels-tima-miroshnichenko-8774651 (1).webp"
+            alt="Laundry in progress"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Laundry</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="laundry">
+          <img
+            src="../img/wahingmachines.jpg"
+            alt="Folded clean clothes"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Laundry</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="facility">
+          <img
+            src="../img/666c144f4b8dfe3993af459f_alexandra-poliakova-EXCroywwrEw-unsplash 1 (1).webp"
+            alt="Professional laundry facility"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Facility</span>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="gal-item gal-wide" data-category="team">
+          <img
+            src="../img/651f3775b737ff175b8db1c0_mike-warren-portrait-picture-laundry-x-webflow-template.jpg"
+            alt="CleanX team at work"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Team</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="delivery">
+          <img
+            src="../img/666c32b8c145432649faeaa5_Img Person (4).webp"
+            alt="Laundry delivery service"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Delivery</span>
+          </div>
+        </div>
+        <div class="gal-item gal-tall" data-category="laundry">
+          <img
+            src="../img/651d6b6040f42bfb1e3d4a35_how-frequently-should-wash-clothes-thumbnail-image-laundry-x-webflow-template.jpg"
+            alt="Clean garments ready"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Laundry</span>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="gal-item" data-category="team">
+          <img
+            src="../img/6516e625b2267b8e9cd59c09_mother-and-daughter-laundry-image-right-laundry-x-webflow-template.jpg"
+            alt="Operations manager"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Team</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="facility">
+          <img
+            src="../img/6515aa8b085fb88bcf7ba21c_washing-machinges-image-laundry-x-webflow-template.jpg"
+            alt="Modern laundry equipment"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Facility</span>
+          </div>
+        </div>
+        <div class="gal-item gal-wide" data-category="delivery">
+          <img
+            src="../img/6792082f803b8f503bf78800_working system image.png"
+            alt="Delivery and packaging"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Delivery</span>
+          </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="gal-item gal-tall" data-category="facility">
+          <img
+            src="../img/67922f40f5cb118f7bda03bd_we offer image.png"
+            alt="Laundromat interior"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Facility</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="laundry">
+          <img
+            src="../img/6671245f27aaed354f802e0e_s-o-c-i-a-l-c-u-t-Ts5lfuC7pDw-unsplash 1 (1).webp"
+            alt="Sorted laundry items"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Laundry</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="team">
+          <img
+            src="../img/6625f4f58b5d1ce619beee81_Kathleen King.jpg"
+            alt="Customer experience lead"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Team</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="laundry">
+          <img
+            src="../img/6516e644e3162f73f9f9abac_high-quality-laundry-laundry-x-webflow-template.jpg"
+            alt="Pressed and ready clothes"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Laundry</span>
+          </div>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="gal-item" data-category="delivery">
+          <img
+            src="../img/651b2295149230ad9d5ced41_clothes-ready-delivery-laundry-x-webflow-template.jpg"
+            alt="Pickup service"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Delivery</span>
+          </div>
+        </div>
+        <div class="gal-item gal-wide" data-category="facility">
+          <img
+            src="../img/66263144db2071ed5aef8660_gianluca-d-intino-vl4QuDMyeyY-unsplash.jpg"
+            alt="CleanX branch office"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Facility</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="team">
+          <img
+            src="../img/65204ba5f7112a38f3be0974_patrick-meyer-testimonial-laundry-x-webflow-template.jpg"
+            alt="Laundry specialist"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Team</span>
+          </div>
+        </div>
+
+        <!-- Row 6 -->
+        <div class="gal-item" data-category="laundry">
+          <img
+            src="../img/66150f2c98ecfa0c4ccf8cb6_ryoji-hayasaka-gkbAYJIMVDA-unsplash.jpg"
+            alt="Quality fabric care"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Laundry</span>
+          </div>
+        </div>
+        <div class="gal-item gal-tall" data-category="delivery">
+          <img
+            src="../img/666c3330136a82984dba3159_Img Person (3).webp"
+            alt="Doorstep delivery"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Delivery</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="facility">
+          <img
+            src="../img/666c04b857488b1b28ee77cd_pexels-jan-van-bizar-92378004-18357976.webp"
+            alt="Washing machine row"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Facility</span>
+          </div>
+        </div>
+        <div class="gal-item" data-category="laundry">
+          <img
+            src="../img/666c0256ed7f1f86aa5ede5e_kelly-sikkema-DJcVOQUZxF0-unsplash 1.webp"
+            alt="Neatly folded garments"
+            loading="lazy"
+          />
+          <div class="gal-overlay">
+            <i class="fa fa-magnifying-glass-plus"></i><span>Laundry</span>
+          </div>
+        </div>
+      </div>
+      <!-- /gallery-grid -->
+
+      <!-- LOAD MORE -->
+      <div class="load-more-wrap">
+        <button class="btn-outline-blue" id="loadMoreBtn">
+          <i class="fa fa-images"></i> Load More Photos
+        </button>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX OVERLAY -->
+    <div class="lightbox" id="lightbox">
+      <button class="lb-close" id="lbClose" aria-label="Close">
+        <i class="fa fa-xmark"></i>
+      </button>
+      <button class="lb-prev" id="lbPrev" aria-label="Previous">
+        <i class="fa fa-chevron-left"></i>
+      </button>
+      <button class="lb-next" id="lbNext" aria-label="Next">
+        <i class="fa fa-chevron-right"></i>
+      </button>
+      <div class="lb-img-wrap">
+        <img src="" alt="Gallery image" id="lbImg" />
+        <div class="lb-caption" id="lbCaption"></div>
+      </div>
+    </div>
+
+    <!-- CTA STRIP -->
+    <section class="cta-strip">
+      <div class="cta-strip-inner">
+        <div>
+          <h2>Ready for Spotless Laundry?</h2>
+          <p>Book a pickup today and experience the CleanX difference.</p>
+        </div>
+        <a href="clx-contact.html" class="btn-primary cta-btn-lg"
+          >Book a Pickup <i class="fa fa-arrow-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-brand footer-col">
+          <div class="footer-logo">
+            <div class="nav-logo-icon"><i class="fa fa-shirt"></i></div>
+            <span>Clean<span class="footer-logo-x">X</span></span>
+          </div>
+          <p>
+            Making your life easy — one load at a time. Fast, reliable, and
+            affordable laundry services across Imo State.
+          </p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="WhatsApp"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Main Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clx-about.html">About</a></li>
+            <li><a href="clx-services.html">Services</a></li>
+            <li><a href="clx-gallery.html">Gallery</a></li>
+            <li><a href="clx-contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="clx-blog.html">Blog</a></li>
+            <li><a href="clx-blog.html#articles">Articles</a></li>
+            <li><a href="clx-blog.html#resources">Resources</a></li>
+            <li><a href="clx-blog.html#tips">Tips</a></li>
+            <li><a href="clx-blog.html#guidelines">Guidelines</a></li>
+            <li><a href="clx-team.html">Team Members</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <i class="fa fa-map-marker-alt"></i
+            ><span>12 Old Obinze Rd, Umuijem, Avu, Owerri-West, Imo State</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa fa-phone"></i
+            ><a href="tel:+2348023167869">+234 802 316 7869</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa fa-envelope"></i
+            ><a href="mailto:contact@cleanx.com">contact@cleanx.com</a>
+          </div>
+          <div class="footer-payments">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-paypal"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 CleanX Laundry Services. All rights reserved.</p>
+        <span>Designed with ❤️ by PetrJr TechHub</span>
+      </div>
+    </footer>
+    <!-- SCROLL TO TOP -->
+    <div class="progress-top" id="progress-top">
+      <div class="progress-ring" id="progress-ring">
+        <div class="progress-ring-inner" id="progress-ring-inner">
+          <i class="fas fa-arrow-up"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chatbot toggle button -->
+    <div class="chat-toggle" onclick="toggleChat()">
+      <i class="fab fa-whatsapp"></i>
+    </div>
+    <!-- Chatbox -->
+    <div class="chat-box" id="chatBox">
+      <div class="chat-header">
+        <div>
+          <strong>CleanX chat support</strong><br />
+          <span class="status">Online • Secure • Encrypted</span>
+        </div>
+        <div class="close" onclick="toggleChat()">✖</div>
+      </div>
+
+      <div class="chat-body" id="chatBody">
+        <div class="message bot">
+          Welcome to CleanX Laundry Service ✨<br />How can we serve you today?
+        </div>
+      </div>
+
+      <div class="chat-footer">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Type your message..."
+          onkeypress="if (event.key === 'Enter') sendMessage();"
+        />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+    <script src="./js/clx-gallery.js"></script>
+    <script src="../aos-master/aos-master/dist/aos.js"></script>
+    <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+        once: true,
+        offset: 80,
+      });
+    </script>
+  </body>
+</html>
